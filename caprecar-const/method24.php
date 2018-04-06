@@ -11,7 +11,7 @@ $x=$_POST['number'];
 if (isset($x)=='true') {
    // $x=$_POST['number'];
 $i=1; 
-echo 'Define Kaprekar Constant<br>'; 
+echo 'Define Caprecar Constant<br>'; 
 echo $x.'<br>'; 
 while ($x!==6174&&$i<16) 
 { $x=(string)$x;
