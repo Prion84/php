@@ -8,7 +8,7 @@
     
 $x=$_POST['number'];
 //var_dump(empty($x));
-if (isset($x)!=='true') {
+if (isset($x)=='true') {
    // $x=$_POST['number'];
 $i=1; 
 echo 'Define Kaprekar Constant<br>'; 
