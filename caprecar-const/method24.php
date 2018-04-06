@@ -5,11 +5,8 @@
 </form>
 
  <?php
-    
-$x=$_POST['number'];
-//var_dump(empty($x));
-if (isset($x)=='true') {
-   // $x=$_POST['number'];
+if (isset($_POST['number'])) {
+ $x=$_POST['number'];
 $i=1; 
 echo 'Define Caprecar Constant<br>'; 
 echo $x.'<br>'; 
