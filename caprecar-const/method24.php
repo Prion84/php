@@ -32,12 +32,12 @@ if (isset($_POST['number']))
 
 		if ($y > $z)
 			{
-			$r = $y - $z;
+			$result = $y - $z;
 			echo $y . '-' . $z . '=' . $result . '<br />';
 			}
 		  else
 			{
-			$r = $z - $y;
+			$result = $z - $y;
 			echo $z . '-' . $y . '=' . $result . '<br />';
 			}
 
