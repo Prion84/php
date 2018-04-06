@@ -5,7 +5,6 @@ echo 'Define Kaprekar Constant<br>';
 echo $x.'<br>'; 
 while ($x!==6174&&$i<16) 
 { $x=(string)$x;
- // echo strlen($x);
   if(strlen($x)==3) {$x='0'.$x;}
  echo $x.'<br>';
 $y00=str_split($x);
